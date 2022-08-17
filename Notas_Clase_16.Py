@@ -7,6 +7,8 @@ archivo" o bien para agregar todos juntos hago "git add ."
 
 Cuando tengo un archivo en to be comitted visual studio lo marca con una "A"
 
+(use "git restore --staged <file>..." to unstage)
+
 "git rm --cached <file>..." para sacar del to be comitted algun archivo
 
 Para crear un punto de control "git commit -m "primer commit que hago"
@@ -14,8 +16,16 @@ Para crear un punto de control "git commit -m "primer commit que hago"
 (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 
-  
 
+Hay que tratar que el comentario del commit sea representativo, es decir por ej "segundo modificaco del archivo 
+uso.py, le agregue un comentario"
+
+"git log" me muestra los disitntos commit 
+
+
+git branch me muestra las distintas ramas del proyecto, para crear una nueva rama uso git branch "nombre_de_rama"
+
+Con git checkout es para cambiar de ramas
 
 
 """
